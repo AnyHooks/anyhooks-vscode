@@ -5,7 +5,7 @@ function activate(context) {
   let disposable = vscode.workspace.onDidChangeTextDocument(event => {
     if (event.contentChanges.length > 0) {
       // Assuming you have a bash script at the root of your project named 'script.sh'
-      exec('bash ./script.sh', (err, stdout, stderr) => {
+      exec('bash ./commit-msg', (err, stdout, stderr) => {
         if (err) {
           // Handle error case
           console.error(`Execution error: ${err}`);
