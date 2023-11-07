@@ -10,14 +10,14 @@
     "vscode": "^1.84.0"
   },
   "categories": [
-    "Other"
+    "Extension Packs"
   ],
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
       "command": "anyhooks.helloWorld",
-      "title": "Hello World"
+      "title": "AnyHooks Git Integration"
     }]
   },
   "scripts": {
