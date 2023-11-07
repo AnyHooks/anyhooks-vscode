@@ -42,6 +42,7 @@ jobs:
           git config user.name "${{ github.actor }}"
       - name: List and process changed markdown files
         run: |
+          chmod +x ".github/workflows/translate.bash"
           for file in $(git diff --name-only HEAD~1 HEAD | grep '\.md$'); do
             .github/workflows/translate.bash ${{ secrets.TRANSLATE }} $file
           done  
