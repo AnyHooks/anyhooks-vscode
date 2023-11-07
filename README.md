@@ -1,4 +1,6 @@
-# anyhooks README
+# AnyHooks 
+
+![Logo](images/logo.png)
 
 Welcome to "anyhooks" - a VSCode extension designed to enhance your coding experience by providing powerful, customizable hooks.
 

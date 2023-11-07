@@ -3,7 +3,9 @@
   "displayName": "AnyHooks",
   "description": "The VSCode AnyHooks Monitor extension is designed to enhance productivity and automation in software development workflows. It observes changes within a Visual Studio Code project in real-time and triggers AnyHooks scripts accordingly. This allows developers to automate tasks such as code linting, testing, building, or deployment related to the specific changes made in the codebase. The extension aims to streamline the development process by reducing the need for manual script execution and providing immediate feedback within the VSCode environment.",
   "version": "0.0.1",
+  "publisher": "Ricardo Malnati",
   "repository": "https://github.com/AnyHooks/anyhooks-vscode",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.84.0"
   },
