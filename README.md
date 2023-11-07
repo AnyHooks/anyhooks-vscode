@@ -6,8 +6,6 @@ Welcome to "anyhooks" - a VSCode extension designed to enhance your coding exper
 
 "anyhooks" allows you to configure custom hooks that can perform actions based on various triggers within VSCode. This can include formatting code, running tests, or any other routine tasks.
 
-![Custom Hook Example](images/img-white-bg-2.png)
-
 > Tip: Use animations to demonstrate your extension in action. Short, focused animations can effectively showcase your extension's capabilities.
 
 ## Requirements
