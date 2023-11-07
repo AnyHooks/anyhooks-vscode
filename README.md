@@ -1,57 +1,51 @@
 # anyhooks README
 
-This is the README for your extension "anyhooks". After writing up a brief description, we recommend including the following sections.
+Welcome to "anyhooks" - a VSCode extension designed to enhance your coding experience by providing powerful, customizable hooks.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+"anyhooks" allows you to configure custom hooks that can perform actions based on various triggers within VSCode. This can include formatting code, running tests, or any other routine tasks.
 
-For example if there is an image subfolder under your extension project workspace:
+![Custom Hook Example](images/img-white-bg-2.png)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+> Tip: Use animations to demonstrate your extension in action. Short, focused animations can effectively showcase your extension's capabilities.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Ensure you have the latest version of VSCode installed. If "anyhooks" relies on other software or extensions, please install and configure them as per their documentation.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+"anyhooks" contributes the following settings:
 
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+* `anyhooks.enable`: Enable/disable this extension.
+* `anyhooks.customCommand`: Set a custom command to run on specific triggers.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+For a list of known issues, please visit the [issues section](https://github.com/AnyHooks/anyhooks-vscode/issues) of our GitHub repository.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Keep up to date with the latest changes and improvements to "anyhooks".
 
 ### 1.0.0
 
-Initial release of ...
+- Initial release of "anyhooks".
 
 ### 1.0.1
 
-Fixed issue #.
+- Fixed issue where hooks would not trigger under certain conditions.
 
 ### 1.1.0
 
-Added features X, Y, and Z.
+- Added support for additional programming languages.
 
 ---
 
 ## Working with Markdown
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
 * Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
 * Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
@@ -62,4 +56,4 @@ You can author your README using Visual Studio Code.  Here are some useful edito
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy "anyhooks", your partner in coding efficiency!**
