@@ -65,3 +65,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - AnyHooks team for the excellent automation tool.
 - All contributors who help keep the project running.
+
+--

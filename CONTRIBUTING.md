@@ -64,3 +64,5 @@ Our Code of Conduct means that you are responsible for treating everyone on the 
 Contributors who provide significant improvement or help manage critical aspects of the project may be recognized as core contributors.
 
 Thank you for contributing to the project!
+
+--
