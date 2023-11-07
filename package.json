@@ -22,6 +22,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "pack": "vsce package",
     "pretest": "npm run lint",
     "test": "node ./test/runTest.js"
   },
