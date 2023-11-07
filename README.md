@@ -1,69 +1,65 @@
-# VSCode AnyHooks Monitor
+# anyhooks README
 
-This VSCode extension monitors file changes within your project workspace and triggers predefined AnyHooks scripts, facilitating automated workflows and tasks upon file modifications.
+This is the README for your extension "anyhooks". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
-- **Real-Time Monitoring**: Tracks changes in the project files in real-time.
-- **Integration with AnyHooks**: Seamlessly executes AnyHooks scripts when changes are detected.
-- **Customizable Hooks**: Allows configuration of specific hooks for different file types or projects.
-- **Efficiency**: Improves workflow by automating repetitive tasks.
+Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
-## Getting Started
+For example if there is an image subfolder under your extension project workspace:
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+\!\[feature X\]\(images/feature-x.png\)
 
-### Prerequisites
+> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-- Visual Studio Code
-- Node.js and npm
-- AnyHooks installed and configured
+## Requirements
 
-### Installing
+If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
-To get a development environment running, clone the repository and install the dependencies.
+## Extension Settings
 
-```bash
-git clone https://github.com/AnyHooks/anyhooks-vscode.git
-cd anyhooks-vscode
-npm install
-```
+Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-### Running the tests
+For example:
 
-Explain how to run the automated tests for this system.
+This extension contributes the following settings:
 
-```bash
-npm test
-```
+* `myExtension.enable`: Enable/disable this extension.
+* `myExtension.thing`: Set to `blah` to do something.
 
-## Usage
+## Known Issues
 
-A step-by-step series of examples that tell you how to get a development environment running.
+Calling out known issues can help limit users opening duplicate issues against your extension.
 
-Describe how to configure the extension and how to set up AnyHooks scripts to be executed.
+## Release Notes
 
-## Contributing
+Users appreciate release notes as you update your extension.
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+### 1.0.0
 
-## Versioning
+Initial release of ...
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your-username/vscode-anyhooks-monitor/tags).
+### 1.0.1
 
-## Authors
+Fixed issue #.
 
-- **Ricardo Malnati** - *Initial work* - [Malnati](https://github.com/Malnati)
+### 1.1.0
 
-See also the list of [contributors](https://github.com/AnyHooks/anyhooks-vscode/contributors) who participated in this project.
+Added features X, Y, and Z.
 
-## License
+---
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+## Working with Markdown
 
-## Acknowledgments
+You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-- AnyHooks team for the excellent automation tool.
-- All contributors who help keep the project running.
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
 
---
+## For more information
+
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+
+**Enjoy!**
