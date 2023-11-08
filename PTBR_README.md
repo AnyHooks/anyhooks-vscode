@@ -1,69 +1,65 @@
-# VSCode AnyHooks Monitor
+# anyhooks LEIAME
 
-Esta extensão do VSCode monitora as alterações nos arquivos do seu espaço de trabalho do projeto e dispara scripts predefinidos do AnyHooks, facilitando fluxos de trabalho automatizados e tarefas ao modificar arquivos.
+Este é o LEIAME para a sua extensão "anyhooks". Depois de escrever uma breve descrição, recomendamos incluir as seguintes seções.
 
 ## Recursos
 
-- **Monitoramento em Tempo Real**: Acompanha as alterações nos arquivos do projeto em tempo real.
-- **Integração com o AnyHooks**: Executa de forma integrada os scripts do AnyHooks quando são detectadas alterações.
-- **Hooks Personalizáveis**: Permite a configuração de hooks específicos para diferentes tipos de arquivo ou projetos.
-- **Eficiência**: Melhora o fluxo de trabalho automatizando tarefas repetitivas.
+Descreva recursos específicos da sua extensão, incluindo capturas de tela da sua extensão em ação. Os caminhos das imagens são relativos a este arquivo LEIAME.
 
-## Primeiros Passos
+Por exemplo, se houver uma subpasta de imagens embaixo do espaço de trabalho do projeto de sua extensão:
 
-Estas instruções vão te ajudar a obter uma cópia do projeto e executá-lo em sua máquina local para desenvolvimento e testes.
+\!\[recurso X\]\(images/recurso-x.png\)
 
-### Pré-requisitos
+> Dica: Muitas extensões populares utilizam animações. Esta é uma excelente maneira de apresentar a sua extensão! Recomendamos animações curtas e focadas, que sejam fáceis de seguir.
 
-- Visual Studio Code
-- Node.js e npm
-- AnyHooks instalado e configurado
+## Requisitos
 
-### Instalação
+Se você tiver quaisquer requisitos ou dependências, adicione uma seção descrevendo-os e como instalá-los e configurá-los.
 
-Para configurar um ambiente de desenvolvimento, clone o repositório e instale as dependências.
+## Configurações de Extensão
 
-```bash
-git clone https://github.com/AnyHooks/anyhooks-vscode.git
-cd anyhooks-vscode
-npm install
-```
+Inclua se sua extensão adiciona quaisquer configurações do VS Code por meio do ponto de extensão `contributes.configuration`.
 
-### Executando os testes
+Por exemplo:
 
-Explique como executar os testes automatizados para este sistema.
+Esta extensão contribui com as seguintes configurações:
 
-```bash
-npm test
-```
+* `myExtension.enable`: Habilita/desabilita esta extensão.
+* `myExtension.thing`: Define para `blah` para fazer algo.
 
-## Uso
+## Problemas Conhecidos
 
-Uma série de exemplos passo a passo que mostram como configurar um ambiente de desenvolvimento.
+Anunciar problemas conhecidos pode ajudar a limitar os usuários de abrirem problemas duplicados em relação a sua extensão.
 
-Descreva como configurar a extensão e como configurar os scripts do AnyHooks para serem executados.
+## Notas de Lançamento
 
-## Contribuindo
+Os usuários apreciam notas de lançamento à medida que você atualiza a sua extensão.
 
-Por favor, leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para obter detalhes sobre o nosso código de conduta e sobre o processo de envio de "pull requests" para nós.
+### 1.0.0
 
-## Versionamento
+Lançamento inicial de...
 
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, veja as [tags deste repositório](https://github.com/your-username/vscode-anyhooks-monitor/tags).
+### 1.0.1
 
-## Autores
+Corrigido o problema #.
 
-- **Ricardo Malnati** - *Trabalho inicial* - [Malnati](https://github.com/Malnati)
+### 1.1.0
 
-Veja também a lista de [contribuidores](https://github.com/AnyHooks/anyhooks-vscode/contributors) que participaram deste projeto.
+Recursos X, Y e Z adicionados.
 
-## Licença
+---
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para mais detalhes.
+## Trabalhando com Markdown
 
-## Agradecimentos
+Você pode escrever o seu LEIAME usando o Visual Studio Code. Aqui estão alguns atalhos de teclado úteis do editor:
 
-- Equipe do AnyHooks pela excelente ferramenta de automação.
-- Todos os contribuidores que ajudam a manter o projeto em funcionamento.
+* Dividir o editor (`Cmd+\` no macOS ou `Ctrl+\` no Windows e Linux)
+* Alternar a visualização (`Shift+Cmd+V` no macOS ou `Shift+Ctrl+V` no Windows e Linux)
+* Pressione `Ctrl+Space` (Windows, Linux, macOS) para ver uma lista de trechos de Markdown
 
---
+## Para mais informações
+
+* [Suporte ao Markdown do Visual Studio Code](http://code.visualstudio.com/docs/languages/markdown)
+* [Referência de Sintaxe do Markdown](https://help.github.com/articles/markdown-basics/)
+
+**Aproveite!**

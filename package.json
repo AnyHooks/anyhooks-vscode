@@ -1,0 +1,39 @@
+{
+  "name": "anyhooks",
+  "displayName": "AnyHooks",
+  "description": "The VSCode AnyHooks Monitor extension is designed to enhance productivity and automation in software development workflows. It observes changes within a Visual Studio Code project in real-time and triggers AnyHooks scripts accordingly. This allows developers to automate tasks such as code linting, testing, building, or deployment related to the specific changes made in the codebase. The extension aims to streamline the development process by reducing the need for manual script execution and providing immediate feedback within the VSCode environment.",
+  "version": "0.0.1",
+  "publisher": "Ricardo Malnati",
+  "repository": "https://github.com/AnyHooks/anyhooks-vscode",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "anyhooks.helloWorld",
+      "title": "AnyHooks Git Integration"
+    }]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pack": "vsce package",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.84.0",
+    "@types/mocha": "^10.0.3",
+    "@types/node": "18.x",
+    "eslint": "^8.52.0",
+    "glob": "^10.3.10",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2",
+    "@vscode/test-electron": "^2.3.6"
+  }
+}

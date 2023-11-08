@@ -1,69 +1,57 @@
-# VSCode AnyHooks Monitor
+# AnyHooks 
 
-This VSCode extension monitors file changes within your project workspace and triggers predefined AnyHooks scripts, facilitating automated workflows and tasks upon file modifications.
+Welcome to "anyhooks" - a VSCode extension designed to enhance your coding experience by providing powerful, customizable hooks.
 
 ## Features
 
-- **Real-Time Monitoring**: Tracks changes in the project files in real-time.
-- **Integration with AnyHooks**: Seamlessly executes AnyHooks scripts when changes are detected.
-- **Customizable Hooks**: Allows configuration of specific hooks for different file types or projects.
-- **Efficiency**: Improves workflow by automating repetitive tasks.
+"anyhooks" allows you to configure custom hooks that can perform actions based on various triggers within VSCode. This can include formatting code, running tests, or any other routine tasks.
 
-## Getting Started
+> Tip: Use animations to demonstrate your extension in action. Short, focused animations can effectively showcase your extension's capabilities.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Requirements
 
-### Prerequisites
+Ensure you have the latest version of VSCode installed. If "anyhooks" relies on other software or extensions, please install and configure them as per their documentation.
 
-- Visual Studio Code
-- Node.js and npm
-- AnyHooks installed and configured
+## Extension Settings
 
-### Installing
+"anyhooks" contributes the following settings:
 
-To get a development environment running, clone the repository and install the dependencies.
+* `anyhooks.enable`: Enable/disable this extension.
+* `anyhooks.customCommand`: Set a custom command to run on specific triggers.
 
-```bash
-git clone https://github.com/AnyHooks/anyhooks-vscode.git
-cd anyhooks-vscode
-npm install
-```
+## Known Issues
 
-### Running the tests
+For a list of known issues, please visit the [issues section](https://github.com/AnyHooks/anyhooks-vscode/issues) of our GitHub repository.
 
-Explain how to run the automated tests for this system.
+## Release Notes
 
-```bash
-npm test
-```
+Keep up to date with the latest changes and improvements to "anyhooks".
 
-## Usage
+### 1.0.0
 
-A step-by-step series of examples that tell you how to get a development environment running.
+- Initial release of "anyhooks".
 
-Describe how to configure the extension and how to set up AnyHooks scripts to be executed.
+### 1.0.1
 
-## Contributing
+- Fixed issue where hooks would not trigger under certain conditions.
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+### 1.1.0
 
-## Versioning
+- Added support for additional programming languages.
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your-username/vscode-anyhooks-monitor/tags).
+---
 
-## Authors
+## Working with Markdown
 
-- **Ricardo Malnati** - *Initial work* - [Malnati](https://github.com/Malnati)
+You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-See also the list of [contributors](https://github.com/AnyHooks/anyhooks-vscode/contributors) who participated in this project.
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
 
-## License
+## For more information
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-## Acknowledgments
-
-- AnyHooks team for the excellent automation tool.
-- All contributors who help keep the project running.
-
---
+**Enjoy "anyhooks", your partner in coding efficiency!**
